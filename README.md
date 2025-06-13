@@ -42,9 +42,9 @@ After starting, the server will print the address it is listening on (e.g., `htt
 
 ---
 
-## Integracja z Cascade / Windsurf
+## Integration with Cascade / Windsurf
 
-Jeśli korzystasz z Cascade (Windsurf) i chcesz, aby serwer uruchamiał się automatycznie wraz ze startem edytora, dodaj wpis do pliku konfiguracyjnego `~/.codeium/windsurf/mcp_config.json` (Windows: `C:\Users\<user>\.codeium\windsurf\mcp_config.json`). Na przykład:
+If you use Cascade (Windsurf) and want the server to start automatically together with the editor, add an entry to the configuration file `~/.codeium/windsurf/mcp_config.json` (Windows: `C:\Users\<user>\.codeium\windsurf\mcp_config.json`). For example:
 
 ```json
 {
@@ -52,15 +52,15 @@ Jeśli korzystasz z Cascade (Windsurf) i chcesz, aby serwer uruchamiał się aut
     "saos-search": {
       "command": "python",
       "args": [
-        "C:/ścieżka/do/LegalMCP/server.py"
+        "C:/path/to/LegalMCP/server.py"
       ],
-      "cwd": "C:/ścieżka/do/LegalMCP"
+      "cwd": "C:/path/to/LegalMCP"
     }
   }
 }
 ```
 
-Po zapisaniu pliku zrestartuj Cascade lub uruchom polecenie **Reload MCP Servers** z palety poleceń, aby serwer pojawił się na liście dostępnych narzędzi.
+After saving the file, restart Cascade or run **Reload MCP Servers** from the command palette so the server appears in the list of available tools.
 
 ---
 
